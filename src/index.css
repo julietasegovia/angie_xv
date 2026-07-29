@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Angie';
+    src: url('./assets/fonts/Angelin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'XV';
+    src: url('./assets/fonts/Satoshi-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: 'xvv';
+    src: url('./assets/fonts/Satoshi-Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
