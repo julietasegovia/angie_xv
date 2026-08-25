@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import RsvpForm from './RsvpForm'
+import SongRequestForm from './SongRequestForm'
 
 function App() {
   // 1. Define the target date (October 23rd, 2026)
@@ -43,7 +45,7 @@ function App() {
     <>
       {/* SECTION 1: Welcome & Countdown */}
       {/* Added relative so absolute elements align inside this section container */}
-      <section className="relative bg-[url('./assets/imgs/bg.jpeg')] bg-cover bg-center h-screen w-screen max-w-full overflow-x-hidden flex items-center justify-center flex-col">
+      <section className="relative bg-[url('./assets/imgs/angie.jpeg')] bg-cover bg-center h-screen w-screen max-w-full overflow-x-hidden flex items-center justify-center flex-col">
         
         {/* Header Texts */}
         {/* Changed 'fixed' to 'absolute' and changed top margins so it scrolls away naturally */}
@@ -126,7 +128,7 @@ function App() {
             X+ EVENTOS
           </h2>
           <h2 className="text-2xl text-[#4d0000] font-['xvv'] text-center">
-            |27 de Febrero 2028|
+            |27 de Febrero 1228|
           </h2>
         </div>
       </section>
@@ -141,6 +143,15 @@ function App() {
             </h4>
           </div>
       </section>
+      
+      <RsvpForm />
+    
+      <section className="bg-[url('./assets/imgs/inter.jpeg')] bg-cover h-[35vh] w-screen max-w-full overflow-x-hidden flex items-center justify-center flex-col border-8 border-white">
+        
+      </section>
+
+      <SongRequestForm />
+    
     </>
   )
 }
