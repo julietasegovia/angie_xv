@@ -25,3 +25,6 @@ A fun optional song suggestion form! It asks for the name and artist of a song.
 Every answer to each form is saved on a Google Sheets document using an App Script extension (see /google-app-script for code). Each form has it's own page on the document (I won't be sharing the document for obvious reasons but trust me it works!!)
 
 I found this to be the most practical way (rather than a sql table or other more efficent storage options) because all this data is requested by the quince's venue and I found a Google Sheets document the easiest to share and use by non-devs.
+
+## AI usage declaration
+I used Cursor Agent to debug the App Script code
